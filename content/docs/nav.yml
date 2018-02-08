@@ -1,0 +1,8 @@
+- title: 快速入门
+  items:
+    - id: how-to-start
+      title: 快速使用
+    - id: installation 
+      title: 安装
+    - id: config
+      title: 配置

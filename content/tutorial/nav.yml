@@ -1,0 +1,35 @@
+- title: Tutorial
+  items:
+    - id: preface
+      title: 前言
+      href: /tutorial/tutorial.html#前言
+      forceInternal: true
+    - id: use-cache-mistake
+      title: 对缓存使用的误区
+      href: /tutorial/tutorial.html#对缓存使用的误区
+      forceInternal: true
+      subitems:
+        - id: why-cache
+          title: 缓存的作用 
+          href: /tutorial/tutorial.html#缓存主要是为了提升系统的处理并发量，而不是让本来慢的请求变得响应快
+          forceInternal: true
+        - id: cache-ttl 
+          title: HTTP缓存的有效期过长
+          href: /tutorial/tutorial.html#HTTP缓存的有效期过长
+          forceInternal: true
+        - id: cache-ttl-category 
+          title: 缓存有效期设置方式的形式多样
+          href: /tutorial/tutorial.html#缓存有效期设置方式的形式多样
+          forceInternal: true
+    - id: http-cache-design
+      title: HTTP缓存服务的设计
+      href: /tutorial/tutorial.html#HTTP缓存服务的设计
+      forceInternal: true
+    - id: performance 
+      title: 性能
+      href: /tutorial/tutorial.html#性能
+      forceInternal: true
+    - id: end 
+      title: 结语
+      href: /tutorial/tutorial.html#结语
+      forceInternal: true
