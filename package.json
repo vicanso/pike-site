@@ -77,7 +77,7 @@
   "scripts": {
     "prebuild": "rm -r docs",
     "build": "gatsby build",
-    "postbuild": "mv ./public/ ./docs/",
+    "postbuild": "cp -r ./public ./docs",
     "check-all": "npm-run-all prettier --parallel lint flow",
     "ci-check": "npm-run-all prettier:diff --parallel lint flow",
     "dev": "gatsby develop -H 0.0.0.0",
