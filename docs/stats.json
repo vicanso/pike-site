@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---tutorial-tutorial-html": [
-      "path---tutorial-tutorial-html-8caf44ea13c1b16d12c7.js",
-      "path---tutorial-tutorial-html-8caf44ea13c1b16d12c7.js.map"
+      "path---tutorial-tutorial-html-ff55ff784b4739a00226.js",
+      "path---tutorial-tutorial-html-ff55ff784b4739a00226.js.map"
     ],
     "path---redirect-to-codepen-rendering-elements-update-rendered-element": [
       "path---redirect-to-codepen-rendering-elements-update-rendered-element-bcca5345b2043936524c.js",
@@ -145,9 +145,9 @@
       "path---warnings-special-props-html-c84056fddb7d346aab62.js.map"
     ],
     "app": [
-      "app-edf1e20a90eae35f5262.js",
+      "app-a588210af85be9c48118.js",
       "build-js-styles.css",
-      "app-edf1e20a90eae35f5262.js.map",
+      "app-a588210af85be9c48118.js.map",
       "build-js-styles.css.map"
     ],
     "path---redirect-to-codepen-tutorial-expanded-version": [
