@@ -17,6 +17,7 @@ if (process.env.NODE_ENV === `production`) {
 
 const JS_NPM_URLS = [
   '//unpkg.com/docsearch.js@2.4.1/dist/cdn/docsearch.min.js',
+  'https://hm.baidu.com/hm.js?83e6b838eeeb56f0ad0a214e0945e623',
 ];
 
 export default class HTML extends Component {
@@ -30,7 +31,6 @@ export default class HTML extends Component {
         />
       );
     }
-
     const js = JS_NPM_URLS.map(url => <script key={url} src={url} />);
 
     return (
@@ -46,15 +46,6 @@ export default class HTML extends Component {
           {this.props.headComponents}
           {js}
           {css}
-          <script>
-            var _hmt = _hmt || [];
-            (function() {
-              var hm = document.createElement("script");
-              hm.src = "https://hm.baidu.com/hm.js?83e6b838eeeb56f0ad0a214e0945e623";
-              var s = document.getElementsByTagName("script")[0]; 
-              s.parentNode.insertBefore(hm, s);
-            })();
-          </script>
         </head>
         <body>
           <div
