@@ -46,6 +46,15 @@ export default class HTML extends Component {
           {this.props.headComponents}
           {js}
           {css}
+          <script>
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "https://hm.baidu.com/hm.js?83e6b838eeeb56f0ad0a214e0945e623";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+          </script>
         </head>
         <body>
           <div
