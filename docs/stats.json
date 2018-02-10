@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "path---tutorial-tutorial-html": [
-      "path---tutorial-tutorial-html-ff55ff784b4739a00226.js",
-      "path---tutorial-tutorial-html-ff55ff784b4739a00226.js.map"
+      "path---tutorial-tutorial-html-a6ef2d5211ecddb4863e.js",
+      "path---tutorial-tutorial-html-a6ef2d5211ecddb4863e.js.map"
     ],
     "path---redirect-to-codepen-rendering-elements-update-rendered-element": [
       "path---redirect-to-codepen-rendering-elements-update-rendered-element-bcca5345b2043936524c.js",
@@ -113,8 +113,8 @@
       "component---src-pages-jsx-compiler-html-js-0f8fb844bbce72eb9bfb.js.map"
     ],
     "commons": [
-      "commons-7f63fbc407f0a9ba8c23.js",
-      "commons-7f63fbc407f0a9ba8c23.js.map"
+      "commons-bbf083ef54ba7dd0df2f.js",
+      "commons-bbf083ef54ba7dd0df2f.js.map"
     ],
     "path---redirect-to-codepen-reconciliation-index-used-as-key": [
       "path---redirect-to-codepen-reconciliation-index-used-as-key-2df53c1a97b34fe78ac5.js",
@@ -145,9 +145,9 @@
       "path---warnings-special-props-html-c84056fddb7d346aab62.js.map"
     ],
     "app": [
-      "app-a588210af85be9c48118.js",
+      "app-2d9be234158732dd4951.js",
       "build-js-styles.css",
-      "app-a588210af85be9c48118.js.map",
+      "app-2d9be234158732dd4951.js.map",
       "build-js-styles.css.map"
     ],
     "path---redirect-to-codepen-tutorial-expanded-version": [
