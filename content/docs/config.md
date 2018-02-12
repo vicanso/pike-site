@@ -22,6 +22,8 @@ adminToken: ry3WwvhVG
 hitForPass: 600
 # 是否使用自动生成ETag（对于没有ETag的添加）
 etag: true
+# 设置对于数据压缩的最小文件（大于此值才压缩），如果设置为0，则使用默认值1024
+compressMinLength: 1024
 # 程序并发限制，设置为0表示使用fasthttp默认值 (256 * 1024)
 concurrency: 0
 # 是否禁用 disableKeepalive，默认为 false
@@ -130,6 +132,10 @@ responseHeader:
 ### etag
 
 是否自动生成ETag(此字段的用途可以上网搜索)，对于响应数据，如果后端没有生成ETag，自动生成此字段。建议配置此字段为true，除非能确认接口数据中，绝大部分数据都是变化很频繁，不可能出现304的。
+
+### compressMinLength
+
+设置数据压缩的最小长度（字节），如果小于此值，则不做dfpx。设置为0则使用默认值：1024。如果不希望任何数据做压缩（无法接受压缩、解压的损耗，内网传输速度极高），可以将此值设置为极大的值。
 
 ### concurrency
 
