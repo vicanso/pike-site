@@ -200,6 +200,7 @@ HTTP日志格式化字符串，程序本身支持的placeholder使用{placeholde
 - `when-iso-ms` 该日志的输出时间：`2018-02-01T13:54:49.532Z`
 - `when-unix` 该日志的输出时间：`1517493289`
 - `status` 该请求的响应状态码：`200`
+- `payload-size` 该请求的提交数据大小：`0`
 - `size` 该请求的响应数据大小：`11`
 - `referer` 该请求的referer：`http://xxxxx/index.html'
 - `userAgent` 该请求的user-agent：`fasthttp`
