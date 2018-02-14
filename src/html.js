@@ -17,8 +17,15 @@ if (process.env.NODE_ENV === `production`) {
 
 const JS_NPM_URLS = [
   '//unpkg.com/docsearch.js@2.4.1/dist/cdn/docsearch.min.js',
-  'https://hm.baidu.com/hm.js?83e6b838eeeb56f0ad0a214e0945e623',
 ];
+
+const baiduTongji = `var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?83e6b838eeeb56f0ad0a214e0945e623";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();`;
 
 export default class HTML extends Component {
   render() {
@@ -34,7 +41,7 @@ export default class HTML extends Component {
     const js = JS_NPM_URLS.map(url => <script key={url} src={url} />);
 
     return (
-      <html lang="en">
+      <html lang="zh">
         <head>
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -42,6 +49,10 @@ export default class HTML extends Component {
             name="viewport"
             content="width=device-width, initial-scale=1.0"
           />
+          <script dangerouslySetInnerHTML={{
+            __html: baiduTongji,
+          }}>
+          </script>
           <link rel="icon" href="/favicon.ico" />
           {this.props.headComponents}
           {js}
